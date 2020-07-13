@@ -563,7 +563,7 @@ server <- function(input, output) {
         marker = list("blue"),
         showlegend = F
       ) %>%
-      layout(title= "Length of Vachanamrut",yaxis = list(title = "Vachnamrut_No"),xaxis = list(title = "Length of Vachnamrut(In words)"))
+      layout(title= "Gap between Vachanamruts",yaxis = list(title = "Vachnamrut_Count"),xaxis = list(title = "Years(As per English Calender)"))
     
     p
 
